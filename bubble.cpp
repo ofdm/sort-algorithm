@@ -11,10 +11,9 @@ using namespace std;
 
 void swap(int &a,int &b)
 {
-    int tmp=0;
-    tmp=a;
-    a=b;
-    b=tmp;
+    a=a^b;
+    b=a^b;
+    a=a^b;
 }
 
 void bubbleSort(int a[],int L,int R)
