@@ -2,8 +2,8 @@
 //  main.cpp
 //  mergeSort
 //
-//  Created by 姚煜涛 on 2019/2/23.
-//  Copyright © 2019年 姚煜涛. All rights reserved.
+//  Created by yyt on 2019/2/23.
+//  Copyright © 2019年 yyt. All rights reserved.
 //
 
 #include <iostream>
