@@ -35,9 +35,9 @@ void mergeSort(int a[],int b[],int L,int R)
 
 
 int main(int argc, const char * argv[]) {
-    int a[]={1,4,2,6,9,7,3};
-    int b[7];
-    mergeSort(a,b,0,6);
+    int a[]={1,4,2,6,9,7,3,9};
+    int b[8];
+    mergeSort(a,b,0,7);
     for(auto x:a)
         cout<<x<<endl;
     return 0;
