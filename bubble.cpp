@@ -24,14 +24,6 @@ void bubbleSort(int a[],int L,int R)
                 swap(a[j],a[j+1]);
 }
 
-void bubbleSort2(int a[],int L,int R)
-{
-    for(int i=L;i!=R;i++)
-        for(int j=L;j!=R-i;j++)
-            if(a[j]>a[j+1])
-                swap(a[j], a[j+1]);
-}
-
 int main(int argc, const char * argv[]) {
     int a[]={1,3,6,4,2,7,5};
     bubbleSort2(a, 0, 6);
