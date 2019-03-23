@@ -26,7 +26,7 @@ void bubbleSort(int a[],int L,int R)
 
 int main(int argc, const char * argv[]) {
     int a[]={1,3,6,4,2,7,5};
-    bubbleSort2(a, 0, 6);
+    bubbleSort(a, 0, 6);
     for(auto x:a)
         cout<<x<<endl;
     return 0;
